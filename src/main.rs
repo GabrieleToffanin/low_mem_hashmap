@@ -65,7 +65,6 @@ impl MyHashMap {
     }
 
     fn hash(&self, num: i32) -> usize {
-        // Complex hash function using polynomial hashing
         let mut hash_value = 0u64;
         let prime: u64 = 31; // Choose a prime number
 
